@@ -1,0 +1,27 @@
+{% extends 'headerPage.html' %}
+
+{% block content%}
+
+    <h2><center>Uplaod Image for Classification</center></h2>
+
+    
+    <br>
+   
+    <form method="post" enctype="multipart/form-data" action="predictImage">
+  
+ {% csrf_token %}
+ <center><div class="col-md-4 col-sm-4"><label for="fname">Upload Image File Here:</label> </div> <input name="filePath" type="file"><br><br></center>
+ <br>
+
+ 
+ <center/><input type="submit" value="Submit" ></div></center>
+
+ <h2>The Given image number plate is  <font size="+3"> {{predictedLabel}} </font></h2>
+ <center><img src={{filePathName}} alt='imagename'></center>
+ {{filePathName}}
+
+</form>
+<br>
+
+
+{% endblock %}

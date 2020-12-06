@@ -1,0 +1,108 @@
+Performing system checks...
+
+System check identified no issues (0 silenced).
+December 06, 2020 - 12:02:13
+Django version 3.1.4, using settings 'imageNetProj.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+<WSGIRequest: POST '/predictImage'>
+{'csrfmiddlewaretoken': 'AVMDacenRTHP2rfF01Cb1gWCYS5rrP5VDxvMpw5jWBMNtN9WVSTL9hRjfsDXV8Qy'}
+R
+X
+6
+O
+H
+G
+F
+6
+X
+V
+
+license plate read from  ./media/test2_ZJQzh2x.jpg  : RX6OHGF 
+
+----------------------------------------
+<WSGIRequest: POST '/predictImage'>
+{'csrfmiddlewaretoken': 'AVMDacenRTHP2rfF01Cb1gWCYS5rrP5VDxvMpw5jWBMNtN9WVSTL9hRjfsDXV8Qy'}
+R
+X
+6
+O
+H
+G
+F
+6
+X
+V
+
+license plate read from  ./media/test2_q4mQzfJ.jpg  : RX6OHGF 
+
+----------------------------------------
+<WSGIRequest: POST '/predictImage'>
+{'csrfmiddlewaretoken': 'fqrNhZ4tVltJQ3orLtqZPAxQUlD1VeBFi2aWwjVp03yHhpiIGkHzXBsxbVbxpxmi'}
+7
+2
+5
+B
+G
+N
+
+license plate read from  ./media/test4.JPG  : 725BGN 
+
+----------------------------------------
+<WSGIRequest: POST '/predictImage'>
+{'csrfmiddlewaretoken': '2kdll7kpEXArl6sdpMgi8e6gHOQLkVcR5WWuArblJFFpMsmukDxSgf1XYoohOeXu'}
+2
+7
+5
+D
+T
+Z
+
+license plate read from  ./media/car.jpg  : 275DTZ 
+
+----------------------------------------
+<WSGIRequest: POST '/predictImage'>
+{'csrfmiddlewaretoken': 'bAbYf5rIt290zqpv76e2N9wsMDA86hTSecU7upiEyKeY0MjM2XvCVar93d8EAAEv'}
+H
+0
+1
+A
+Y
+8
+8
+6
+6
+
+license plate read from  ./media/test.jpeg  : H01AY8866 
+
+----------------------------------------
+<WSGIRequest: POST '/predictImage'>
+{'csrfmiddlewaretoken': 'bAbYf5rIt290zqpv76e2N9wsMDA86hTSecU7upiEyKeY0MjM2XvCVar93d8EAAEv'}
+H
+0
+1
+A
+Y
+8
+8
+6
+6
+
+license plate read from  ./media/test_ErOAEhd.jpeg  : H01AY8866 
+
+----------------------------------------
+<WSGIRequest: POST '/predictImage'>
+{'csrfmiddlewaretoken': 'bAbYf5rIt290zqpv76e2N9wsMDA86hTSecU7upiEyKeY0MjM2XvCVar93d8EAAEv'}
+H
+0
+1
+A
+Y
+8
+8
+6
+6
+
+license plate read from  ./media/test_pzdR2s7.jpeg  : H01AY8866 
+
+----------------------------------------
